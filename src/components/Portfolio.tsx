@@ -39,7 +39,7 @@ export const Portfolio: React.FC<PortfolioProps> = ({ onOpenQuoteWithProject }) 
               Real Installations. Precision Tolerances.
             </h2>
             <p className="text-sm sm:text-base text-slate-400 mt-2">
-              Browse actual commercial logistics warehouses, private villa glass canopies, marine-grade stainless balustrades, and custom architectural gates fabricated and erected by Ernexx.
+              Browse actual commercial logistics warehouses, private villa glass canopies, marine-grade stainless balustrades, and custom architectural gates fabricated and erected by Ernex.
             </p>
           </div>
 

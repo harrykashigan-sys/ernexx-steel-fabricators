@@ -156,7 +156,7 @@ export const WorkshopLocation: React.FC<WorkshopLocationProps> = ({ onOpenQuote 
               {/* Map embed frame */}
               <div className="relative aspect-[16/8] w-full bg-slate-950 overflow-hidden">
                 <iframe
-                  title="Ernexx Steel Fabricators Google Maps Location"
+                  title="Ernex Steel and Fabrications Google Maps Location"
                   src="https://maps.google.com/maps?q=-1.3592272,36.9379845&hl=en&z=15&output=embed"
                   className="w-full h-full border-0 filter contrast-125 brightness-90"
                   loading="lazy"

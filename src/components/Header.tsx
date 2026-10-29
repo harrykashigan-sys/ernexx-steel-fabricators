@@ -54,7 +54,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenQuote }) => {
             className="text-lg md:text-xl font-bold tracking-tight text-white whitespace-nowrap shrink-0 flex items-center gap-2 font-display group"
           >
             <span className="w-2.5 h-6 bg-amber-500 rounded-xs group-hover:scale-y-110 transition-transform"></span>
-            <span className="tracking-wider">EARNEXX STEEL</span>
+            <span className="tracking-wider">ERNEX STEEL</span>
           </Link>
 
           {/* Zone 2: Navigation Links */}

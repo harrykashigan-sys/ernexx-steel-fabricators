@@ -282,7 +282,7 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({
 
             <div className="flex items-center justify-center gap-2 text-[11px] text-slate-500 text-center">
               <ShieldCheck className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-              <span>Direct workshop review by Ernexx certified structural engineers.</span>
+              <span>Direct workshop review by Ernex certified structural engineers.</span>
             </div>
           </form>
         )}

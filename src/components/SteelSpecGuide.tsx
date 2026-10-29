@@ -41,7 +41,7 @@ export const SteelSpecGuide: React.FC = () => {
             Structural Steel Profiles & Section Engineering Tables.
           </h2>
           <p className="text-sm sm:text-base text-slate-400 mt-2">
-            Ernexx maintains hot-rolled universal beams, structural hollow sections, and heavy floor plates in mild steel S275 and high-tensile S355. Explore standard section properties and calculate total batch weight.
+            Ernex maintains hot-rolled universal beams, structural hollow sections, and heavy floor plates in mild steel S275 and high-tensile S355. Explore standard section properties and calculate total batch weight.
           </p>
         </div>
 

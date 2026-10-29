@@ -197,7 +197,7 @@ Estimated Metal Mass: ${calculations.weightTons} Metric Tons (${calculations.wei
 Deflection Standard: ${activeConfig.deflectionLimit}
 Estimated Workshop Production Time: ${calculations.leadTimeDays} Business Days
 Governing Standards: British Standard BS 5950 / Eurocode 3 / KEBS KS 02-104
-Contact: Ernexx Steel Fabricators | Nairobi, Kenya | Phone: 0780 610648`;
+Contact: Ernex Steel and Fabrications | Nairobi, Kenya | Phone: 0780 610648`;
 
   const handleCopyBOQ = () => {
     navigator.clipboard.writeText(boqSpecificationText);
@@ -207,7 +207,7 @@ Contact: Ernexx Steel Fabricators | Nairobi, Kenya | Phone: 0780 610648`;
 
   const handleWhatsAppInquiry = () => {
     const encoded = encodeURIComponent(
-      `Hello Ernexx Steel Fabricators,\n\nI generated a project specification on your website:\n- Project: ${activeConfig.name}\n- Scope: ${scaleValue} ${activeConfig.unit}\n- Metallurgy: ${activeGradeObj.name}\n- Finish: ${activeFinishObj.name}\n- Est. Mass: ${calculations.weightTons} Tons\n- Location: ${activeLocationObj.name}\n\nPlease review and provide a formal Contractor Quotation & BOQ.`
+      `Hello Ernex Steel and Fabrications,\n\nI generated a project specification on your website:\n- Project: ${activeConfig.name}\n- Scope: ${scaleValue} ${activeConfig.unit}\n- Metallurgy: ${activeGradeObj.name}\n- Finish: ${activeFinishObj.name}\n- Est. Mass: ${calculations.weightTons} Tons\n- Location: ${activeLocationObj.name}\n\nPlease review and provide a formal Contractor Quotation & BOQ.`
     );
     window.open(`https://wa.me/254780610648?text=${encoded}`, '_blank');
   };
@@ -521,7 +521,7 @@ Contact: Ernexx Steel Fabricators | Nairobi, Kenya | Phone: 0780 610648`;
             <div className="flex items-start justify-between border-b border-slate-800 pb-4">
               <div>
                 <div className="text-xs font-mono text-amber-400 tracking-wider">OFFICIAL PROJECT SPECIFICATION SHEET</div>
-                <h3 className="text-xl font-bold text-white font-display mt-0.5">Ernexx Steel Fabricators</h3>
+                <h3 className="text-xl font-bold text-white font-display mt-0.5">Ernex Steel and Fabrications</h3>
                 <div className="text-xs text-slate-400">Mombasa Road Industrial Zone, Nairobi · Tel: 0780 610648</div>
               </div>
               <button

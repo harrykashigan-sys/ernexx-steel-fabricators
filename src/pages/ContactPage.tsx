@@ -44,7 +44,7 @@ export const ContactPage: React.FC = () => {
             <span>Nairobi Industrial Base</span>
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight font-display">
-            Contact Ernexx Steel Fabricators.
+            Contact Ernex Steel and Fabrications.
           </h1>
           <p className="text-sm sm:text-base text-slate-300 mt-3 leading-relaxed">
             Reach our chief structural steel estimators, book an on-site technical inspection, or dispatch our crane rigging crew anywhere across Kenya.
@@ -274,7 +274,7 @@ export const ContactPage: React.FC = () => {
 
                 <div className="flex items-center justify-center gap-2 text-[11px] text-slate-500 text-center">
                   <ShieldCheck className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-                  <span>Direct workshop review by Ernexx certified structural engineers.</span>
+                  <span>Direct workshop review by Ernex certified structural engineers.</span>
                 </div>
               </form>
             )}
@@ -358,7 +358,7 @@ export const ContactPage: React.FC = () => {
             {/* Embedded Google Map */}
             <div className="rounded-2xl overflow-hidden border border-slate-800 shadow-xl bg-slate-950 aspect-[16/9]">
               <iframe
-                title="Ernexx Steel Fabricators Google Maps"
+                title="Ernex Steel and Fabrications Google Maps"
                 src="https://maps.google.com/maps?q=-1.3592272,36.9379845&hl=en&z=15&output=embed"
                 className="w-full h-full border-0 filter contrast-125 brightness-90"
                 loading="lazy"

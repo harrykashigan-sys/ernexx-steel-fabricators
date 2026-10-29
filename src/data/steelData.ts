@@ -1,13 +1,13 @@
 import { Project, SteelProfile, Hotspot, BlogPost, FAQItem, ComparisonPair } from '../types';
 
 export const WORKSHOP_DETAILS = {
-  name: 'Earnexx Steel and Fabrications',
+  name: 'Ernex Steel and Fabrications',
   tagline: 'Precision Metal Construction & Architectural Aluminum Engineering',
   category: 'Metal Construction Company',
   phone: '0780 610648',
   phoneFormatted: '+254 780 610648',
-  email: 'info@earnexxsteel.co.ke',
-  whatsappUrl: 'https://wa.me/254780610648?text=Hello%20Earnexx%20Steel%20and%20Fabrications,%20I%20would%20like%20to%20inquire%20about%20a%20metal%20or%20aluminum%20fabrication%20project.',
+  email: 'info@ernexsteel.co.ke',
+  whatsappUrl: 'https://wa.me/254780610648?text=Hello%20Ernex%20Steel%20and%20Fabrications,%20I%20would%20like%20to%20inquire%20about%20a%20metal%20or%20aluminum%20fabrication%20project.',
   locationShort: 'Nairobi, Kenya',
   plusCode: 'JWRQ+85 Nairobi',
   coordinates: {
@@ -29,17 +29,19 @@ export const WORKSHOP_DETAILS = {
 };
 
 export const IMAGES = {
-  hero: '/src/assets/images/ernexx_hero_steel_workshop_1793278175917.jpg',
-  realWarehouse: '/src/assets/images/ernexx_real_warehouse_structural_frame_1793279352026.jpg',
-  realCanopy: '/src/assets/images/ernexx_real_glass_patio_canopy_1793279349786.jpg',
-  pergolaFrame: '/src/assets/images/ernexx_pergola_construction_frame_1793279350615.jpg',
-  technician: '/src/assets/images/ernexx_technician_esf_canopy_1793279351110.jpg',
-  glassBalustrade: '/src/assets/images/ernexx_glass_balustrade_stone_balcony_1793279351052.jpg',
-  modernPergola: '/src/assets/images/ernexx_modern_steel_pergola_1793278445574.jpg',
-  architecturalGate: '/src/assets/images/ernexx_architectural_metal_gate_1793278176557.jpg',
-  spiralStaircase: '/src/assets/images/ernexx_spiral_staircase_rail_1793278176662.jpg',
-  staircase: '/src/assets/images/ernexx_spiral_staircase_rail_1793278176662.jpg',
-  structural: '/src/assets/images/ernexx_structural_steel_frame_1793278176507.jpg',
+  hero: '/images/ernex_hero_steel_workshop.jpg',
+  realWarehouse: '/images/ernex_real_warehouse.jpg',
+  realCanopy: '/images/ernex_real_canopy.jpg',
+  pergolaFrame: '/images/ernex_pergola_frame.jpg',
+  technician: '/images/ernex_technician_installation.jpg',
+  glassBalustrade: '/images/ernex_glass_balustrade.jpg',
+  modernPergola: '/images/ernex_modern_pergola.jpg',
+  architecturalGate: '/images/ernex_architectural_gate.jpg',
+  spiralStaircase: '/images/ernex_spiral_staircase.jpg',
+  staircase: '/images/ernex_spiral_staircase.jpg',
+  structural: '/images/ernex_structural_frame.jpg',
+  canopyPatio: '/images/ernex_glass_canopy_patio.jpg',
+  crewInstallation: '/images/ernex_crew_installation.jpg',
   googleMapsPhoto: 'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SPK48Jlf1JN4bhPcHngPrZjR6CLSxTo0dgwpFsiMJVCoKr0lrZCkeuvaEzHjn_8NnHsA9kJ40wPXHcSmj3xQJM1elXpRlWvnZw69cCwj7nUJ4Xe1NCFM1J91djaYoZzxw4WNw=w1200'
 };
 
@@ -187,7 +189,7 @@ export const PROJECTS: Project[] = [
     steelGrade: 'Certified Structural Framing Hardware',
     image: IMAGES.technician,
     fallbackImage: IMAGES.hero,
-    description: 'Ernexx certified rigging technicians executing mechanical bracket fastening, continuous EPDM gasket sealing, and non-destructive joint verification.',
+    description: 'Ernex certified rigging technicians executing mechanical bracket fastening, continuous EPDM gasket sealing, and non-destructive joint verification.',
     highlights: ['Strict OSHA & Kenyan safety compliance', 'High-torque impact driver fastening', 'Continuous leak-proof seals'],
     client: 'General Building Contractor'
   },
@@ -331,7 +333,7 @@ export const STEEL_PROFILES: SteelProfile[] = [
 
 export const TESTIMONIALS = [
   {
-    quote: 'Ernexx fabricated the entire structural steel framework for our Syokimau logistics hub. Every bolt hole lined up with zero site-modification delays, and erection was finished three weeks ahead of program.',
+    quote: 'Ernex fabricated the entire structural steel framework for our Syokimau logistics hub. Every bolt hole lined up with zero site-modification delays, and erection was finished three weeks ahead of program.',
     author: 'Eng. Francis Mwangi',
     role: 'Lead Structural Consultant',
     company: 'Bowman & Turner Engineering Nairobi',
@@ -339,7 +341,7 @@ export const TESTIMONIALS = [
     metric: '3 Weeks Ahead of Program'
   },
   {
-    quote: 'Finding fabricators in Nairobi capable of true architectural grade laser-cut gates with concealed hinges and pristine powder coating used to be impossible. Ernexx delivered museum-quality craftsmanship.',
+    quote: 'Finding fabricators in Nairobi capable of true architectural grade laser-cut gates with concealed hinges and pristine powder coating used to be impossible. Ernex delivered museum-quality craftsmanship.',
     author: 'Sharon Wanjiku',
     role: 'Principal Architect',
     company: 'Atelier Rift Architecture',
@@ -347,7 +349,7 @@ export const TESTIMONIALS = [
     metric: '±0.5mm Precision Tolerances'
   },
   {
-    quote: 'When we needed emergency fabrication for a 45,000L industrial storage tank tower in Athi River, Ernexx dispatched their certified welders within 4 hours. Absolute masters of heavy metalwork.',
+    quote: 'When we needed emergency fabrication for a 45,000L industrial storage tank tower in Athi River, Ernex dispatched their certified welders within 4 hours. Absolute masters of heavy metalwork.',
     author: 'Kiprop Kipkemboi',
     role: 'Director of Plant Operations',
     company: 'Savannah Agrochemicals Ltd',
@@ -364,7 +366,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Structural Engineering',
     readTime: '6 min read',
     date: 'October 2026',
-    author: 'Ernexx Engineering Team',
+    author: 'Ernex Engineering Team',
     authorRole: 'Structural Steel Specialists',
     keywords: ['warehouse construction Kenya', 'structural steel fabricators Nairobi', 'portal frames BS 5950', 'steel tonnage calculation', 'Syokimau logistics'],
     image: IMAGES.realWarehouse,
@@ -372,7 +374,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'In Kenya’s rapidly expanding industrial corridor spanning Mombasa Road, Syokimau, Athi River, and Tatu City, portal frame structural steel construction has become the gold standard for high-bay logistics warehouses and manufacturing facilities.',
       'Unlike conventional masonry or reinforced concrete columns that require interior load-bearing pillars every 6 to 9 meters, engineered structural steel portal frames allow for clear unobstructed spans ranging from 24 meters up to 48 meters. This maximizes cubic storage capacity for high-density pallet racking, heavy gantry cranes, and forklift turning radii.',
       'Key engineering parameters governed by British Standard BS 5950 and Eurocode 3 include calculating dead loads, live roof loads, and localized high-gust wind pressures common in East Africa. Structural steel sections such as Universal Beams (UB) and Universal Columns (UC) in Grade S355 provide significantly higher tensile yield strength, reducing total tonnage and dead weight on foundation pile caps.',
-      'At Ernexx Steel Fabricators, every structural member is fabricated inside our Nairobi workshop with computerized sawing, CNC drilling, and automated submerged-arc welding before undergoing rigorous ultrasonic testing (NDT). This ensures that on-site crane erection proceeds without delays or field cutting.'
+      'At Ernex Steel and Fabrications, every structural member is fabricated inside our Nairobi workshop with computerized sawing, CNC drilling, and automated submerged-arc welding before undergoing rigorous ultrasonic testing (NDT). This ensures that on-site crane erection proceeds without delays or field cutting.'
     ]
   },
   {
@@ -389,7 +391,7 @@ export const BLOG_POSTS: BlogPost[] = [
     content: [
       'Modern Kenyan architecture in neighborhoods like Karen, Runda, Lavington, and Muthaiga increasingly incorporates outdoor-indoor living spaces. Homeowners and commercial restaurateurs frequently face the choice between tempered solar glass canopies and multiwall polycarbonate sheets for courtyards and carports.',
       'While polycarbonate offers lower initial weight, it is notoriously vulnerable to long-term yellowing, micro-cracking from intense equatorial UV exposure, and loud drumming noise during tropical downpours. By contrast, engineered architectural glass canopies fabricated with dark steel or heavy aluminum box sections provide unmatched clarity and acoustic comfort.',
-      'Ernexx fabricates structural frames using heavy rectangular hollow sections (RHS) treated with 2-coat epoxy polyurethane or baked electrostatic powder coating. For glazing, we utilize 10mm to 12mm heat-strengthened, solar-tinted laminated safety glass mounted with continuous EPDM compression gaskets and structural silicone channels.',
+      'Ernex fabricates structural frames using heavy rectangular hollow sections (RHS) treated with 2-coat epoxy polyurethane or baked electrostatic powder coating. For glazing, we utilize 10mm to 12mm heat-strengthened, solar-tinted laminated safety glass mounted with continuous EPDM compression gaskets and structural silicone channels.',
       'This combination guarantees total water-tightness, stops up to 78% of solar heat gain while preserving daylight, and withstands heavy wind loads without rattling or vibration.'
     ]
   },
@@ -407,7 +409,7 @@ export const BLOG_POSTS: BlogPost[] = [
     content: [
       'When designing balustrades for elevated terraces, staircases, and balconies, safety and corrosion resistance are paramount. In Kenya, atmospheric conditions vary significantly between high-altitude interior regions like Nairobi and coastal zones like Mombasa or Diani.',
       'Grade 304 stainless steel contains 18% chromium and 8% nickel, making it highly suitable for interior stairwells and dry exterior applications. However, in environments with industrial pollutants, swimming pool chlorides, or coastal sea spray, Grade 304 can suffer from unsightly tea-staining and pit corrosion.',
-      'Grade 316 stainless steel adds 2% to 3% molybdenum into the alloy, providing superior resistance against pitting and chemical attack. Ernexx specifies marine Grade 316 for all exterior glass clamp spigots, base shoes, and handrails to guarantee a pristine mirror or satin finish that lasts decades.',
+      'Grade 316 stainless steel adds 2% to 3% molybdenum into the alloy, providing superior resistance against pitting and chemical attack. Ernex specifies marine Grade 316 for all exterior glass clamp spigots, base shoes, and handrails to guarantee a pristine mirror or satin finish that lasts decades.',
       'Paired with 12mm clear toughened safety glass with polished arrised edges and core-drilled chemical anchor bolts, our balustrade installations meet both international building codes and Kenya Bureau of Standards (KEBS) impact requirements.'
     ]
   }
@@ -465,8 +467,8 @@ export const FAQS: FAQItem[] = [
   {
     id: 'faq-9',
     category: 'Permits & Quality',
-    question: 'What warranties and guarantees are provided on Ernexx steelwork?',
-    answer: 'All Ernexx heavy structural frameworks carry a 10-year structural integrity guarantee. Architectural powder coatings and hot-dip galvanized finishes include comprehensive anti-corrosion warranties according to the selected coating specification.'
+    question: 'What warranties and guarantees are provided on Ernex steelwork?',
+    answer: 'All Ernex heavy structural frameworks carry a 10-year structural integrity guarantee. Architectural powder coatings and hot-dip galvanized finishes include comprehensive anti-corrosion warranties according to the selected coating specification.'
   },
   {
     id: 'faq-10',

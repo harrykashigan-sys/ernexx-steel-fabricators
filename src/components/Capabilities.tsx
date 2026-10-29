@@ -71,7 +71,7 @@ export const Capabilities: React.FC<CapabilitiesProps> = ({ onSelectCapability }
               <div className="relative aspect-[16/9] w-full overflow-hidden bg-slate-950">
                 <img
                   src={IMAGES.structural}
-                  alt="Ernexx structural steel warehouse truss construction in Nairobi"
+                  alt="Ernex structural steel warehouse truss construction in Nairobi"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   onError={(e) => {
@@ -184,7 +184,7 @@ export const Capabilities: React.FC<CapabilitiesProps> = ({ onSelectCapability }
               <div className="relative aspect-[16/10] w-full overflow-hidden bg-slate-950">
                 <img
                   src={IMAGES.staircase}
-                  alt="Ernexx helical spiral metal staircase fabrication"
+                  alt="Ernex helical spiral metal staircase fabrication"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   onError={(e) => {

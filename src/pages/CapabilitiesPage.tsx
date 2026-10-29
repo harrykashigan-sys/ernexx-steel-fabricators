@@ -105,7 +105,7 @@ export const CapabilitiesPage: React.FC<CapabilitiesPageProps> = ({ onOpenQuote 
       title: 'Architectural Aluminum Systems, Facades & Louvers',
       image: IMAGES.technician,
       subtitle: 'Commercial structural glazing, aluminum curtain walling, and aerofoil sun louvers.',
-      overview: 'In addition to heavy steelwork, Ernexx fabricates architectural aluminum systems using 6063-T6 architectural extrusions. Lightweight, corrosion-immune, and thermally efficient for modern commercial building envelopes in Nairobi.',
+      overview: 'In addition to heavy steelwork, Ernex fabricates architectural aluminum systems using 6063-T6 architectural extrusions. Lightweight, corrosion-immune, and thermally efficient for modern commercial building envelopes in Nairobi.',
       specs: [
         { label: 'Extrusion Alloy', value: '6063-T6 Architectural Grade Aluminum' },
         { label: 'Finish Options', value: 'Anodized 25µm or Qualicoat architectural powder coat' },

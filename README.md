@@ -1,4 +1,4 @@
-# Ernexx Steel Fabricators
+# Ernex Steel and Fabrications
 
 > **Premier Metal Construction, Structural Steel Engineering, and Architectural Glazing in Nairobi, Kenya.**
 
@@ -9,9 +9,9 @@
 
 ---
 
-## 🏗️ About Ernexx Steel Fabricators
+## 🏗️ About Ernex Steel and Fabrications
 
-Ernexx Steel Fabricators is a leading metal construction company based along the Mombasa Road / Syokimau industrial corridor in Nairobi, Kenya. We specialize in heavy structural steel warehouse framing, bespoke architectural laser-cut entrance gates, solar-tinted glass canopies, helical spiral staircases, marine-grade SS316 balustrades, and elevated industrial tank towers.
+Ernex Steel and Fabrications is a leading metal construction company based along the Mombasa Road / Syokimau industrial corridor in Nairobi, Kenya. We specialize in heavy structural steel warehouse framing, bespoke architectural laser-cut entrance gates, solar-tinted glass canopies, helical spiral staircases, marine-grade SS316 balustrades, and elevated industrial tank towers.
 
 - **Location:** Mombasa Road Corridor / Syokimau Industrial Zone, Nairobi, Kenya
 - **Google Maps Plus Code:** `JWRQ+85 Nairobi` (-1.3592272, 36.9379845)

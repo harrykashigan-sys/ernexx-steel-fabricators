@@ -19,7 +19,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenQuote }) => {
               className="text-lg font-bold text-white tracking-wider flex items-center gap-2 font-display"
             >
               <span className="w-2 h-5 bg-amber-500 rounded-xs"></span>
-              <span>EARNEXX STEEL</span>
+              <span>ERNEX STEEL</span>
             </Link>
             <p className="text-slate-400 text-xs leading-relaxed max-w-sm">
               Premier metal construction, structural steel warehouse engineering, architectural glazing canopies, laser-cut gates, aluminum facade systems, and bespoke staircases fabricated in Nairobi, Kenya.

@@ -52,7 +52,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuote, onOpenEstimator }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Editorial Subtitle & Nairobi Trust Banner */}
         <div className="flex flex-wrap items-center gap-3 text-xs tracking-wider text-slate-400 font-medium mb-6 uppercase">
-          <span className="text-amber-400 font-semibold">Ernexx Steel Fabricators</span>
+          <span className="text-amber-400 font-semibold">Ernex Steel and Fabrications</span>
           <span aria-hidden="true" className="text-slate-600">·</span>
           <span>Nairobi, Kenya</span>
           <span aria-hidden="true" className="text-slate-600">·</span>
@@ -73,7 +73,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuote, onOpenEstimator }) => {
             </h1>
 
             <p className="text-base sm:text-lg text-slate-300 leading-relaxed font-sans max-w-xl">
-              From high-tonnage industrial warehouse frameworks in Syokimau to precision laser-cut entrance portals and helical staircases in Karen, Ernexx delivers verified metallurgy, robotic accuracy, and on-schedule crane erection.
+              From high-tonnage industrial warehouse frameworks in Syokimau to precision laser-cut entrance portals and helical staircases in Karen, Ernex delivers verified metallurgy, robotic accuracy, and on-schedule crane erection.
             </p>
 
             {/* Action Buttons */}
@@ -127,7 +127,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuote, onOpenEstimator }) => {
               <div className="relative aspect-[16/10] sm:aspect-[16/9] w-full overflow-hidden bg-slate-950">
                 <img
                   src={IMAGES.hero}
-                  alt="Ernexx Steel Fabricators heavy industrial workshop in Nairobi with welders assembling steel beams"
+                  alt="Ernex Steel and Fabrications heavy industrial workshop in Nairobi with welders assembling steel beams"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   onError={(e) => {

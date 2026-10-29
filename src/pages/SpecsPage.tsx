@@ -17,7 +17,7 @@ export const SpecsPage: React.FC = () => {
             Steel & Aluminum Technical Specifications.
           </h1>
           <p className="text-sm sm:text-base text-slate-300 mt-3 leading-relaxed">
-            Detailed engineering section dimensions, linear mass ratings (kg/m), moments of inertia, and standard metallurgy codes for structural steel and architectural aluminum stocked and fabricated by Ernexx in Nairobi.
+            Detailed engineering section dimensions, linear mass ratings (kg/m), moments of inertia, and standard metallurgy codes for structural steel and architectural aluminum stocked and fabricated by Ernex in Nairobi.
           </p>
         </div>
 
