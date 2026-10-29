@@ -1,13 +1,13 @@
 import { Project, SteelProfile, Hotspot, BlogPost, FAQItem, ComparisonPair } from '../types';
 
 export const WORKSHOP_DETAILS = {
-  name: 'Ernexx Steel Fabricators',
+  name: 'Earnexx Steel and Fabrications',
   tagline: 'Precision Metal Construction & Architectural Aluminum Engineering',
   category: 'Metal Construction Company',
   phone: '0780 610648',
   phoneFormatted: '+254 780 610648',
-  email: 'info@ernexxsteel.co.ke',
-  whatsappUrl: 'https://wa.me/254780610648?text=Hello%20Ernexx%20Steel%20Fabricators,%20I%20would%20like%20to%20inquire%20about%20a%20metal%20or%20aluminum%20fabrication%20project.',
+  email: 'info@earnexxsteel.co.ke',
+  whatsappUrl: 'https://wa.me/254780610648?text=Hello%20Earnexx%20Steel%20and%20Fabrications,%20I%20would%20like%20to%20inquire%20about%20a%20metal%20or%20aluminum%20fabrication%20project.',
   locationShort: 'Nairobi, Kenya',
   plusCode: 'JWRQ+85 Nairobi',
   coordinates: {
