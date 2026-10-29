@@ -2,6 +2,26 @@
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      (function() {
+        try {
+          var originalFetch = window.fetch;
+          var currentFetch = originalFetch;
+          Object.defineProperty(window, 'fetch', {
+            configurable: true,
+            enumerable: true,
+            get: function() {
+              return currentFetch;
+            },
+            set: function(fn) {
+              currentFetch = fn;
+            }
+          });
+        } catch (e) {
+          // Fallback if redefinition fails
+        }
+      })();
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ernexx Steel Fabricators | Metal & Aluminum Construction Nairobi</title>
     <meta name="description" content="Premier metal construction, structural steel warehouse framing, aluminum works, architectural glass canopies, laser-cut gates, and stainless balustrades in Nairobi, Kenya. Call 0780 610648." />
